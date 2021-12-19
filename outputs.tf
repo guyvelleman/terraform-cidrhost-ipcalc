@@ -1,4 +1,4 @@
-output "first_avavilable_ip" {
+output "first_available_ip" {
     value = local.host_min
     description = "The first available IP address in the given range"
 }
